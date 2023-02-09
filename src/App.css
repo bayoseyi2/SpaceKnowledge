@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.navbar
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: buttonface;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.navlink
+{
+    margin-left:8px;
+    margin-right:8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.loginform
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width:40vw;
+    margin:auto;
+    margin-top:30px;
+
+    background-color: grey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo
+{
+    height:50px;
 }
 
-.App-link {
-  color: #61dafb;
+.header
+{
+    display:flex;
+    justify-content: space-around;
+
+    background-color:#004477;
+    color:white;
+    font-size:40pt;
+    
+    font-family: 'Bebas Neue', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.authnav
+{
+    font-size:10pt;    
+    font-family: 'Bebas Neue', cursive;
 }
+
+
+.homepage
+{
+    background:url("/public/lighthouse_bg.jpg");
+    height:80vh;
+
+    font-size:20pt;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage p
+{
+    margin-left:10vw;
+    padding-top:20px;
+    width:40vw;
+}
+
+
