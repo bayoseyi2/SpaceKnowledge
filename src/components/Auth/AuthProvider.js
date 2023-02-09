@@ -4,6 +4,10 @@ import {signOut,signInWithEmailAndPassword,createUserWithEmailAndPassword} from 
 
 const AuthContext = React.createContext("Default Context: no user logged in");
 
+// explanation on the usage in other file
+// other file where we want to use the context
+// useContext(AuthContext)
+
 export function useAuth()
 {
     return useContext(AuthContext)
