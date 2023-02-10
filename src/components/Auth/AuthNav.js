@@ -8,11 +8,12 @@ function AuthNav() {
   
   return (
 
-    <div className="authnav">
-        {(loginInfo.currentUser)?<Link to="/logout"> [Logout] </Link>:<Link to="/login"> [Login] </Link>}
-        {(loginInfo.currentUser)?null:<Link to="/signup"> [Sign Up for Free] </Link>}
+    <div className="nav-wrapper">
+     
+        {(loginInfo.currentUser)?<Link to="/logout"> |Logout| </Link>:<Link to="/login"> |Login| </Link>}
+        {(loginInfo.currentUser)?null:<Link to="/signup"> |Sign Up for Free| </Link>}
         <UserInfo/>
-      
+        
     </div>
   )
 }

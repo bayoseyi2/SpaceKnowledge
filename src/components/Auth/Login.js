@@ -15,12 +15,14 @@ function Login()
 
     return(
         <div className="loginform">
+            
             <h3>Login</h3>
             <form>
-                <input type="text" ref={userRef}></input><br/>
-                <input type="text" ref={pwdRef}></input><br/>
-                <button onClick={onAttemptLogin}>Login</button>
+                <span>UserName/Email<input type="text" ref={userRef}></input></span><br/>
+                <span>Password<input type="text" ref={pwdRef}></input></span><br/>
+                <button className="wbtn-floating btn-small waves-effect waves-light blue" onClick={onAttemptLogin}>Login</button>
             </form>
+            
         </div>
     )
 }

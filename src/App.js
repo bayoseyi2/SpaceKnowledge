@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
 import Countries from './components/Countries'
+import CountryDetails from './components/CountryDetails'
 import Admin from './components/Admin'
 import Login from './components/Auth/Login'
 import Logout from './components/Auth/Logout'
@@ -23,7 +24,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
-            <Route path="/countries" element={<Countries/>}/>
+            <Route path="/countries" element={<Countries/>}>
+            <Route path="details:/countryname" element={<CountryDetails/>}/>
+            </Route>
             <Route path="/admin" element={<ProtectedRoutes/>}>
               <Route path="" element={<Admin/>}/>
             </Route>
