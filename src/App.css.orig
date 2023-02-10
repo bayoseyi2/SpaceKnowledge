@@ -1,0 +1,76 @@
+.navbar
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: buttonface;
+
+}
+
+
+.navlink
+{
+    margin-left:8px;
+    margin-right:8px;
+}
+
+
+
+.loginform
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:lightskyblue;
+    width:40vw;
+    margin:auto;
+    margin-top:30px;
+
+    background-color:white;
+}
+
+
+
+.logo
+{
+    height:50px;
+}
+
+.header
+{
+    display:flex;
+    justify-content: space-around;
+
+    background-color:#004477;
+    color:white;
+    font-size:40pt;
+    
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.authnav
+{
+    font-size:10pt;    
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.homepage
+{
+    background:url("/public/lighthouse_bg.jpg");
+    height:80vh;
+
+    font-size:20pt;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage p
+{
+    margin-left:10vw;
+    padding-top:20px;
+    width:40vw;
+}
+
+
